@@ -34,3 +34,9 @@ console.log(gamename.indexOf('d'));
 
 const newstringone = " hitendra   "
 console.log
+ 
+const url = "https://hitendra.com%69singh"
+console.log(url.replace('%69', '-'))
+
+// means does it include or not 
+// console.log(url.includes('sundar')) false
