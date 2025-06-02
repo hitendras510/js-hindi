@@ -1,8 +1,11 @@
+// A JavaScript String is a sequence of characters, typically used to represent text.
 // In JavaScript, you can choose single quotes ('),
 //  double quotes ("), or backticks (`) to wrap your
 //  strings in. All of the following will work:
 // Strings declared using backticks are a special
 //  kind of string called a template literal.
+//A better way to break a string is by using the string addition.
+
 
 
 const name = "hitendra"
@@ -18,6 +21,7 @@ console.log(gamename[0]);
 
 
 console.log(gamename.length);
+//Convert a string to uppercase and lowercase using toUpperCase() and toLowerCase() methods.
 console.log(gamename.toUpperCase());
 console.log(gamename.charAt());
 console.log(gamename.indexOf('d'));
