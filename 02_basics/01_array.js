@@ -8,7 +8,7 @@ const myheors = [ " virat"];
 
 console.log(myArr[0]);
 
-// array methods , DON'T USE SMALL A IN myArr
+// array methods , DON'T USE SMALL 'A' IN myArr
 
 myArr.push(9)
 myArr.pop() // use to remove last stored value
@@ -27,4 +27,13 @@ const newArr = myArr.join()
 //////////////////////////////////////////////////////////////////////
 
 
+// to merg two array's
+const myheros = ["virat kohli", "y jaiswal","soon me"]
+const othersheros  = ["dhoni" , " jadeja" , " raydu" ]
 
+const new_array = [ ...myheros, ...othersheros] 
+console.log(new_array);
+
+// to convert into array
+console.log(Array.isArray("hitendrasingh")) // false
+console.log(Array.from("hitendrasingh")) // converted
