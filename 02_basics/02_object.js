@@ -35,3 +35,13 @@
 // to check is property (eg. isLoggedIn) available in the storage
 
 // console.log(tinerUser.hasOwnProperty('isLoggendIn'));
+
+const course = {
+    coursename : "js in hindi",
+    prince: "999",
+    courseInstructor: "hitendra"
+}
+// destructing of objects
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
