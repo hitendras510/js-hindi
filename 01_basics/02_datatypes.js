@@ -1,4 +1,4 @@
-"use strict"; // treat all js code as newer version
+ "use strict"; // treat all js code as newer version
 
 console.log(3+3) ;
  console.log("hitendra");
@@ -11,8 +11,10 @@ console.log(3+3) ;
 
 // number=> 2 to power 53 
 // bigint ( for big number)
-// string => ""
-// null => (standlone value)
-// underfined => 
+// string => " "
+// null => (stand alone value)
+// undefined => 
+// boolena => true or false
 
-    console.log(typeof UNDERFINED); // WILL DESCRIBE DATA TYPE IN ANSWER
+    console.log(typeof UNDERFINED);
+     // WILL DESCRIBE DATA TYPE IN ANSWER
