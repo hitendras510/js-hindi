@@ -13,7 +13,7 @@ const repocount = 50
 
 // console.log(name + repocount + "value "); it is outdated
 
-// use this below one
+// use this below one , {placeholder used}
 console.log(` Hello my name is ${name} and my repo count is ${repocount}`);
 
 const gamename = new String(`hitendra`)

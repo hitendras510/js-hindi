@@ -17,4 +17,4 @@ console.log(3+3) ;
 // boolena => true or false
 
     console.log(typeof UNDERFINED);
-     // WILL DESCRIBE DATA TYPE IN ANSWER
+      // WILL DESCRIBE DATA TYPE IN ANSWER
