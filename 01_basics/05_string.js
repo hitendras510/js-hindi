@@ -31,9 +31,9 @@ console.log(gamename.indexOf('d'));
 // you can even enter negative value it will assign in reverse order
 
 // another method trim or replace
-
 const newstringone = " hitendra   "
-console.log
+console.log(newstringone);
+console.log(newstringone,trim());
  
 const url = "https://hitendra.com%69singh"
 console.log(url.replace('%69', '-'))
