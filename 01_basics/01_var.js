@@ -1,9 +1,9 @@
 const accountid = 14453
 let accountEmail = "hitendra@gmail.com"
 var accountpassword = "12345"
-accountcity = "jaipur"
+accountcity = "jaipur";
 
-// accountid = 2 //not allowed
+// accountid = 2 //not allowed ...
 
 /* 
 prefer not to use var 
