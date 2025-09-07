@@ -1,51 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript DOM examples</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript DOM Examples</title>
     <style>
-        body {
-            background-color: #1a1a1a;
-            color: #fff;
-            text-align: center;
-        }
-        .highlight {
-            background-color: yellow;
-            font-weight: bold;
-            color: #1a1a1a;
-        }
-        .hidden {
-            display: none;
-        }
+      body {
+        background-color: #1a1a1a;
+        color: #fff;
+        text-align: center;
+      }
+      .highlight {
+        background-color: yellow;
+        font-weight: bold;
+        color: #1a1a1a;
+      }
+      .hidden {
+        display: none;
+      }
     </style>
-</head>
-<body>
-    <h1>JavaScript DOM Fun eamples</h1>
+  </head>
+  <body>
+    <h1>!!JavaScript DOM Fun Examples!!</h1>
 
-    // example 1; Accessing DOM elements
+    <!-- Example 1: Accessing DOM elements -->
     <section id="example-1">
-        <h2>Accessing DOM Elements</h2>
-        <p id ="myParagraph">
-            This is a paragraph. click the button to change me!
-        </p>
-        <button id="changetextbutton">change the text</button>
+      <h2>Accessing DOM Elements!</h2>
+      <p id="myParagraph">
+        This is a paragraph. Click the button to change me!
+      </p>
+      <button id="changeTextButton">Change the text</button>
     </section>
 
-    // example 2; traversing the DOM 
-
+    <!-- Example 2: Traversing the DOM -->
     <section id="example-2">
-        <h2>traversing the DOM </h2>
-        <ul id="citiesList">
-
-        </ul>
-        <p id ="myParagraph">
-            This is a paragraph. click the button to change me!
-        </p>
-        <button id="changetextbutton">change the text</button>
+      <h2>Traversing the DOM!!</h2>
+      <ul id="citiesList">
+        <li>New York</li>
+        <li>Tokyo</li>
+        <li>Paris</li>
+        <li>London</li>
+      </ul>
+      <button id="highlightFirstCity">Highlight First City</button>
     </section>
 
+    <!-- Example 3: Manipulating DOM Elements -->
+    <section id="example-3">
+        <h2>Manipulating DOM Elements!</h2>
+        <div id="coffeOrder">Order:
+            <span id="coffeType">Latte</span></div>
+            <button id="changeOrder">Change the order to Espresso!></button>
+     </section>
 
+<!-- Example 4: Creating and Inserting Elements -->
+     <section id="example-4">
+        <h2>Creating and Inserting Elements!</h2>
+            <button id="addNewItem">Add a New Item to the Shopping List></button>
+            <ul id="shoppingList">
+                <li>bread</li>
+                <li>milk</li>
+            </ul>
+     </section>
+
+ <!-- Example 5: Removing DOM Elements -->
+  <section id="example-5">
+    <h2>Removing DOM Elements!</h2>
+<ul id="taskList">
+    <li>task 1</li>
+    <li>task 2</li>
+    <li>task 3</li>
+</ul>
+<button id="removeLastTask">Remove Last Task</button>
+</section>
+
+<!-- Example 6: Event handling in the dom -->
+ <section id="example-6">
+ <h2>Event handling in the dom! </h2>
+<button id="clickMeButton">Click Me!</button>
+</section>
+
+<!-- Example 7: Event delegation -->
+ <section id="example-7">
+    <h2>Event delegation!</h2>
+    <ul id="teaList">
+        <li class="teaItem">Green Tea</li>
+        <li class="teaItem">Black Tea</li>
+        <li class="teaItem">Oolong Tea</li>
+    </ul>
+    <p>Click on any tea to select it!</p>
+
+ </section>
+ <!-- Example 8: form Handling -->
+  <section id="example-8">
+    <h2>form handling</h2>
+    <form id="feedbackform">
+    <label for="feedbackInput">Your feedback:</label>
+    <input type="text" id="feedbackInput"
+    placeholder="Enter feedback" />
+    <button type="submit">Submit feedback</button>
+    </form>
+    <p id="feedbackDisplay"></p>
+  </section>
+
+   
+  <!-- Example 9:DOM CONTENT LOADED -->
+   <section></section>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
